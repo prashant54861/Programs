@@ -4,7 +4,7 @@ public class DuplicateCharString {
 	
 	public static void main(String[] args) {
 		
-		String s = "uyfgqueifgcviqu";
+		String s = "beautiful beach";
 		char [] c = s.toCharArray();
 		
 		for(int i = 0; i<c.length-1; i++)
@@ -13,7 +13,8 @@ public class DuplicateCharString {
 			{
 				if(c[i]==c[j])
 				{
-					System.out.print(c[i]+" ");
+					System.out.print(c[j]+" ");
+					break;
 				}
 			}
 		}
